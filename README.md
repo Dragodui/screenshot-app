@@ -32,3 +32,7 @@ $ npm run build:mac
 # For Linux
 $ npm run build:linux
 ```
+
+### How to use
+
+press `Ctrl+Shift+S` to activate screenshot window
