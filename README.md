@@ -35,4 +35,6 @@ $ npm run build:linux
 
 ### How to use
 
-press `Ctrl+Shift+S` to activate screenshot window
+`Ctrl+Shift+S` to activate screenshot window
+`Crtl+C` to copy selected area
+`Ctrl+S` to save selected area
