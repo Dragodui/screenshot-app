@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  cursor: crosshair;
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  z-index: 50;
+}
+
+#selection {
+  position: absolute;
+  border: 2px dashed white;
+  background-color: transparent;
+  z-index: 100;
+}
+
+#buttons {
+  position: absolute;
+  display: none;
+  z-index: 150;
+  flex-direction: column;
+  gap: 10px;
+}
+button {
+  all: unset;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#save, #copy {
+  width: 30px;
+  height: 30px;
+  display: none;
+  padding: 5px;
+  background:rgb(121, 121, 121);
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+  shadow: none;
+  cursor: pointer;
+  outline: none;
+}
