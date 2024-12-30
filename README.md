@@ -1,4 +1,4 @@
-# test-app
+# screenshot-app
 
 A minimal Electron application with TypeScript
 
