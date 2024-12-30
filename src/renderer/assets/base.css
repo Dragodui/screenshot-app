@@ -36,12 +36,13 @@ button {
   cursor: pointer;
 }
 
-#save, #copy {
+#save,
+#copy {
   width: 30px;
   height: 30px;
   display: none;
   padding: 5px;
-  background:rgb(121, 121, 121);
+  background: rgb(121, 121, 121);
   border-radius: 3px;
   justify-content: center;
   align-items: center;

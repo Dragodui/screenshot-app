@@ -66,9 +66,9 @@ document.addEventListener('mouseup', async () => {
   try {
     const selectionElement = document.getElementById('selection')
     if (selectionElement) {
-      selectionElement.style.display = 'none' 
+      selectionElement.style.display = 'none'
     }
-    capture = await (window as any).api.captureRegion(rect) 
+    capture = await (window as any).api.captureRegion(rect)
     if (selectionElement) {
       selectionElement.style.display = ''
     }
